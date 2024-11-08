@@ -1,9 +1,6 @@
-import React from 'react';
+
 import Header from './Header';
 import SalesForm from './SalesForm';
-
-
-
 
 function App() {
   return (

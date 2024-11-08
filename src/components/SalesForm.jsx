@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import {useState} from "react";
 
 function SalesForm() {
     const [producName, setProductName] = useState([]);
@@ -6,7 +6,7 @@ function SalesForm() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        console.log("Producto: ",producName,"Venta: ", saleAmount);
+        console.log("Producto: ",producName, "Venta: ", saleAmount);
 
     };
 
